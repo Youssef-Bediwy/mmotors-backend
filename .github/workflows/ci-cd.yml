@@ -1,4 +1,5 @@
-# .github/workflows/ci-cd.yml
+# .github/workflows/ci-cd.
+#test 
 name: CI/CD M-Motors Backend
 
 on:
@@ -64,3 +65,5 @@ jobs:
           aws ecs wait services-stable \
             --cluster $ECS_CLUSTER \
             --services $ECS_SERVICE
+
+            
